@@ -63,5 +63,4 @@ public class CollectionUtil {
 	public static <T> List<T> removeDuplicate(List<T> sourList){
 		return new ArrayList<T>(new TreeSet<T>(sourList));
 	}
-	//Some other simple but useful utils of Java basic operations
 }
